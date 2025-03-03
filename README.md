@@ -1,39 +1,68 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+## 🍽️ Que se dice? - Gestión de Pedidos e Inventario
 
-###
+Bienvenido a **Que se dice?**, un sistema de gestión de pedidos e inventario para restaurantes. Este proyecto facilita la administración de órdenes, seguimiento de inventario y optimización de procesos dentro de un restaurante.
 
-<p align="left">My name is ... and I'm a ..., from ....</p>
+---
 
-###
-
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
-
-###
-
-<h2 align="left">I code with</h2>
-
-###
+### 🚀 Tecnologías Utilizadas
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="Flask" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40" alt="Tailwind CSS" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="SQLite" />
 </div>
 
-###
+---
+
+### 📌 Funcionalidades Principales
+✅ Gestión de pedidos en tiempo real 📦🍕  
+✅ Control y actualización de inventario 📊  
+✅ Interfaz moderna y responsiva con **Tailwind CSS** 🎨  
+✅ Backend en **Flask** con base de datos **SQLite** 🔥  
+✅ Dashboard interactivo para seguimiento de ventas y productos 📈  
+
+---
+
+### 🛠️ Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ejecuta el servidor Flask:
+   ```bash
+   python app.py
+   ```
+
+---
+
+### 🤖 Sobre mí
+✨ Creando bugs desde ...  
+📚 Actualmente aprendiendo más sobre desarrollo web full-stack  
+🎯 Objetivo: Optimizar la gestión de restaurantes con tecnología  
+🎲 Dato curioso: Amo la comida tanto como el código 🍔💻  
+
+---
+
+### 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un **pull request** o abrir un **issue**.
+
+📩 Contacto: [Tu correo o redes sociales]
+
+---
+
+⭐ Si te gusta este proyecto, no olvides dejar una estrella en GitHub ⭐
