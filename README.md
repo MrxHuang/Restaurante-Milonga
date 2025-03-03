@@ -33,36 +33,52 @@ Bienvenido a **Que se dice?**, un sistema de gestión de pedidos e inventario pa
 
 ---
 
-### 🛠️ Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   ```
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ejecuta el servidor Flask:
-   ```bash
-   python app.py
-   ```
-
----
-
 ### 🤖 Sobre mí
-✨ Creando bugs desde ...  
+✨ Creando bugs desde 2004-2006
 📚 Actualmente aprendiendo más sobre desarrollo web full-stack  
 🎯 Objetivo: Optimizar la gestión de restaurantes con tecnología  
 🎲 Dato curioso: Amo la comida tanto como el código 🍔💻  
 
 ---
 
-### 🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un **pull request** o abrir un **issue**.
+###
 
-📩 Contacto: [Tu correo o redes sociales]
+<br clear="both">
 
----
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
-⭐ Si te gusta este proyecto, no olvides dejar una estrella en GitHub ⭐
+###
+name: Generate snake animation
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - master
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark
+
+
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
